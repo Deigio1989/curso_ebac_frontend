@@ -1,0 +1,164 @@
+/*reset*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/*geral*/
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+    
+}
+p{
+    color: rgb(64, 63, 65);
+}
+/*header*/
+body > header{
+    background-color: rgb(87, 124, 173);
+    color: white;
+    padding: 16px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    
+    
+}
+header h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(213, 232, 248);
+}
+.ultrabold{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+
+}
+header li a:hover{
+    color: white;
+    background-color: rgb(60, 95, 148);
+
+}
+
+
+/*main*/
+main{
+    margin-top: 70px;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article{
+    width: 30%;
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+    margin-top: 10px;
+}
+
+time{
+    color: dimgray;
+}
+
+section{
+    padding: 16px 0px;
+}
+section h2{
+    font-size: 32px;
+
+}
+
+section h2 , .articles article{
+    margin-bottom: 16px;
+}
+.articles article h3{
+    margin:8px 0px;
+    font-size: 23px;
+    color: rgb(69, 66, 82);
+}
+.articles article a{
+    background-color: rgb(60, 95, 148);
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin-top: 8px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article a:hover{
+    opacity: 90%;
+    text-decoration: underline;
+}
+.articles article p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* sessões*/
+#sports{
+    background-color: rgb(205, 216, 247);
+    ;
+}
+#sports h2{
+    color: rgb(60, 95, 148);;
+}
+#economy{
+    background-color: rgba(176, 151, 247, 0.966);
+    ;
+}
+#economy h2{
+    color: rgb(43, 42, 105);;
+}
+#economy a{
+    background-color: rgb(91, 66, 204)
+}
+#politics{
+    background-color: rgb(247, 209, 255);
+    ;
+}
+#politics h2{
+    color: rgb(94, 60, 148);;
+}
+#politics a{
+    background-color: rgb(105, 45, 73);
+}
+
+#health{
+    background-color: rgb(232, 255, 170);
+    ;
+}
+#health h2{
+    color: rgb(68, 55, 34);;
+}
+#health a{
+    background-color: rgb(128, 86, 33) ;
+}
+/*footer*/
+footer{
+    background-color:  rgb(60, 95, 148);
+    padding: 15px 0px 20px 0px;
+
+}
+footer p{
+    color: white;
+}

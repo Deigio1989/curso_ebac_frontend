@@ -1,0 +1,59 @@
+/*reset*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+/*containers*/
+.container{
+    max-width: 640px;
+    width: 100%;
+    margin: 80px auto;
+
+}
+
+/*body*/
+form{
+    margin-top: 40px;
+}
+
+input, button{
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+label{
+    display: block;
+    font-size: 33px;
+    color: rgb(65, 65, 121);
+    padding-bottom: 8px;
+}
+button{
+    background-color: rgb(65, 65, 121);
+    border:none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(94, 94, 173) ;
+}
+.feedback{
+    display: block;
+    font-size: 15px;
+    color:#fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+
+}
+.sucesso{
+    background-color: rgb(16, 117, 50) ;
+}
+.fail{
+    background-color: rgb(170, 40, 17) ;
+}
